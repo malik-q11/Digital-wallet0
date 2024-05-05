@@ -26,22 +26,29 @@ namespace Digital_wallet
                 {
                     MessageBox.Show("Username or password Empty!");
                 }
+               
                 else
                 {
                     if (txtusername.Text == "Admin" && txtpassword.Text == "123123")
                     {
-                        this.Close();
+                        Group group = new Group();
+                        group = new Group();
+                        group.Show();
                     }
                     else
                     {
                         MessageBox.Show("Username or password is not correct!");
                     }
+
                 }
+               
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex);
             }
+            
         }
+       
     }
 }
