@@ -1,6 +1,6 @@
 ﻿namespace Digital_wallet
 {
-    partial class Group
+    partial class Pay_bills
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Group
+            // Pay_bills
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(246, 319);
-            this.Name = "Group";
-            this.Text = "Group";
+            this.ClientSize = new System.Drawing.Size(211, 286);
+            this.Name = "Pay_bills";
+            this.Text = "Pay_bills";
             this.ResumeLayout(false);
 
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Digital_wallet
 {
-    public partial class Group : Form
+    public partial class Pay_bills : Form
     {
-        public Group()
+        public Pay_bills()
         {
             InitializeComponent();
         }

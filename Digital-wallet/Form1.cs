@@ -31,9 +31,9 @@ namespace Digital_wallet
                 {
                     if (txtusername.Text == "Admin" && txtpassword.Text == "123123")
                     {
-                        Group group = new Group();
-                        group = new Group();
-                        group.Show();
+                        New_Group n = new New_Group();
+                        n = new New_Group();
+                        n.Show();
                     }
                     else
                     {
