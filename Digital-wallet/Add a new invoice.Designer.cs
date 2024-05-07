@@ -36,7 +36,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(254, 285);
             this.Name = "Add_a_new_invoice";
-            this.Text = "Add_a_new_invoice";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Add a new invoice";
             this.ResumeLayout(false);
 
         }

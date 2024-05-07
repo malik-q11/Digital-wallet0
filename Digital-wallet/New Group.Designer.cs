@@ -29,30 +29,21 @@
         private void InitializeComponent()
         {
             this.next = new System.Windows.Forms.Button();
-            this.listgroup = new System.Windows.Forms.ListBox();
             this.txtname = new System.Windows.Forms.TextBox();
             this.l1 = new System.Windows.Forms.Label();
             this.baddname = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // next
             // 
-            this.next.Location = new System.Drawing.Point(95, 284);
+            this.next.Location = new System.Drawing.Point(106, 182);
             this.next.Name = "next";
             this.next.Size = new System.Drawing.Size(75, 23);
             this.next.TabIndex = 0;
             this.next.Text = "Next";
             this.next.UseVisualStyleBackColor = true;
             this.next.Click += new System.EventHandler(this.next_Click);
-            // 
-            // listgroup
-            // 
-            this.listgroup.FormattingEnabled = true;
-            this.listgroup.Location = new System.Drawing.Point(30, 122);
-            this.listgroup.Name = "listgroup";
-            this.listgroup.Size = new System.Drawing.Size(194, 147);
-            this.listgroup.TabIndex = 1;
-            this.listgroup.SelectedIndexChanged += new System.EventHandler(this.next_Click);
             // 
             // txtname
             // 
@@ -72,7 +63,7 @@
             // 
             // baddname
             // 
-            this.baddname.Location = new System.Drawing.Point(95, 78);
+            this.baddname.Location = new System.Drawing.Point(106, 83);
             this.baddname.Name = "baddname";
             this.baddname.Size = new System.Drawing.Size(75, 23);
             this.baddname.TabIndex = 4;
@@ -80,19 +71,37 @@
             this.baddname.UseVisualStyleBackColor = true;
             this.baddname.Click += new System.EventHandler(this.baddname_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteCustomSource.AddRange(new string[] {
+            "Dr.Saleh",
+            "Malik",
+            "Zyad",
+            "Abdullah "});
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "D.r Saleh ",
+            "Malik",
+            "Zyad ",
+            "Abdullah"});
+            this.comboBox1.Location = new System.Drawing.Point(69, 135);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(155, 21);
+            this.comboBox1.TabIndex = 5;
+            // 
             // New_Group
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 319);
+            this.ClientSize = new System.Drawing.Size(255, 259);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.baddname);
             this.Controls.Add(this.l1);
             this.Controls.Add(this.txtname);
-            this.Controls.Add(this.listgroup);
             this.Controls.Add(this.next);
             this.Name = "New_Group";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New_Group";
+            this.Text = "New Group";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,9 +110,9 @@
         #endregion
 
         private System.Windows.Forms.Button next;
-        private System.Windows.Forms.ListBox listgroup;
         private System.Windows.Forms.TextBox txtname;
         private System.Windows.Forms.Label l1;
         private System.Windows.Forms.Button baddname;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

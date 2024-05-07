@@ -92,7 +92,7 @@ namespace Digital_wallet
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Digital Wallet";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -92,9 +92,9 @@
             // 
             // result
             // 
-            this.result.Location = new System.Drawing.Point(69, 230);
+            this.result.Location = new System.Drawing.Point(127, 230);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(67, 20);
+            this.result.Size = new System.Drawing.Size(74, 20);
             this.result.TabIndex = 6;
             // 
             // label3

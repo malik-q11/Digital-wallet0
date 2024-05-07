@@ -29,7 +29,7 @@ namespace Digital_wallet
                
                 else
                 {
-                    if (txtusername.Text == "Admin" && txtpassword.Text == "123123")
+                    if (txtusername.Text == "Digital wallet" && txtpassword.Text == "123123")
                     {
                         New_Group n = new New_Group();
                         n = new New_Group();

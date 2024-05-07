@@ -33,7 +33,7 @@ namespace Digital_wallet
         {
             if (this.txtname.Text !="")
             {
-                listgroup.Items.Add(this.txtname.Text);
+                comboBox1.Items.Add(this.txtname.Text);
                 this.txtname.Focus();
                 this.txtname.Clear();
             }
