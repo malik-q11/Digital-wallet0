@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Services));
             this.Add = new System.Windows.Forms.Button();
             this.Split = new System.Windows.Forms.Button();
-            this.Pay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add
@@ -48,21 +47,14 @@
             this.Split.UseVisualStyleBackColor = true;
             this.Split.Click += new System.EventHandler(this.Split_Click);
             // 
-            // Pay
-            // 
-            resources.ApplyResources(this.Pay, "Pay");
-            this.Pay.Name = "Pay";
-            this.Pay.UseVisualStyleBackColor = true;
-            this.Pay.Click += new System.EventHandler(this.Pay_Click);
-            // 
             // Services
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Pay);
             this.Controls.Add(this.Split);
             this.Controls.Add(this.Add);
             this.Name = "Services";
+            this.Load += new System.EventHandler(this.Services_Load);
             this.ResumeLayout(false);
 
         }
@@ -71,6 +63,5 @@
 
         private System.Windows.Forms.Button Add;
         private System.Windows.Forms.Button Split;
-        private System.Windows.Forms.Button Pay;
     }
 }

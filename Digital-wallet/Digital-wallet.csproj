@@ -64,12 +64,6 @@
     <Compile Include="New Group.Designer.cs">
       <DependentUpon>New Group.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pay bills.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pay bills.Designer.cs">
-      <DependentUpon>Pay bills.cs</DependentUpon>
-    </Compile>
     <Compile Include="Services.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,9 +86,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="New Group.resx">
       <DependentUpon>New Group.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pay bills.resx">
-      <DependentUpon>Pay bills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Services.aa.resx">
       <DependentUpon>Services.cs</DependentUpon>

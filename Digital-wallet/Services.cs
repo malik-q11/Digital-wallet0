@@ -33,9 +33,12 @@ namespace Digital_wallet
 
         private void Pay_Click(object sender, EventArgs e)
         {
-            Pay_bills b = new Pay_bills();
-            b = new Pay_bills();
-            b.Show();
+            
+        }
+
+        private void Services_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -19,17 +19,29 @@ namespace Digital_wallet
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
+                double a = double.Parse(txtmoney.Text);
+                double b = double.Parse(people.Text);
+                double c = (a / b)/100;
+                result.Text = c.ToString();
+
+            }
+
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
         }
 
         private void equally_Click(object sender, EventArgs e)
         {
             try
             {
-               int a=int.Parse(txtmoney.Text);
-               int b=int.Parse(people.Text);
-                int c = a / b;
-                result.Text=c.ToString();
+               double a=double.Parse(txtmoney.Text);
+               double b=double.Parse(people.Text);
+               double c = a / b;
+               result.Text=c.ToString();
 
             }
 

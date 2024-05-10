@@ -119,10 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Add.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 58</value>
+    <value>93, 72</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Add.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 52</value>
+    <value>183, 76</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Add.TabIndex" type="System.Int32, mscorlib">
@@ -141,13 +145,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Add.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="Split.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 126</value>
+    <value>93, 196</value>
+  </data>
+  <data name="Split.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Split.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 52</value>
+    <value>183, 76</value>
   </data>
   <data name="Split.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -165,42 +172,20 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Split.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Pay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 196</value>
-  </data>
-  <data name="Pay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 52</value>
-  </data>
-  <data name="Pay.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Pay.Text" xml:space="preserve">
-    <value>Pay bills</value>
-  </data>
-  <data name="&gt;&gt;Pay.Name" xml:space="preserve">
-    <value>Pay</value>
-  </data>
-  <data name="&gt;&gt;Pay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Pay.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Pay.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 19</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>246, 319</value>
+    <value>369, 353</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

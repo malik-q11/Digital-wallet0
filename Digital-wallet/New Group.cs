@@ -33,15 +33,20 @@ namespace Digital_wallet
         {
             if (this.txtname.Text !="")
             {
-                comboBox1.Items.Add(this.txtname.Text);
+                listBox1.Items.Add(this.txtname.Text);
                 this.txtname.Focus();
-                this.txtname.Clear();
+                txtname.Clear();
             }
             else
             {
                 MessageBox.Show("Please enter a name to add.","Error",MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.txtname.Focus();
             }
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Remove(listBox1.Text);
         }
     }
 }
