@@ -23,7 +23,7 @@ namespace Digital_wallet
             {
                 double a = double.Parse(txtmoney.Text);
                 double b = double.Parse(people.Text);
-                double c = (a / b)/100;
+                double c = (a/b)/100;
                 result.Text = c.ToString();
 
             }

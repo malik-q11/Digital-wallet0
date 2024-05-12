@@ -7,29 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Digital_wallet
 {
-    public partial class Form1 : Form
+    public partial class New_account : Form
     {
-        public Form1()
+        public New_account()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void nxtnew_Click(object sender, EventArgs e)
         {
             try
             {
-                if (string.IsNullOrEmpty(txtusername.Text) && string.IsNullOrEmpty(txtpassword.Text))
+                if (string.IsNullOrEmpty(newuser.Text) && string.IsNullOrEmpty(newpass.Text))
                 {
                     MessageBox.Show("Username or password Empty!");
                 }
-               
+
                 else
                 {
-                    if (txtusername.Text == "Digital wallet" && txtpassword.Text == "11111")
+                    if (newuser.Text == "New" && newpass.Text == "12345")
                     {
                         New_Group n = new New_Group();
                         n = new New_Group();
@@ -41,20 +40,12 @@ namespace Digital_wallet
                     }
 
                 }
-               
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex);
             }
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            New_account n = new New_account();
-            n = new New_account();
-            n.Show();
         }
     }
 }

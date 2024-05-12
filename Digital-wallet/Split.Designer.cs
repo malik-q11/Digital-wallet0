@@ -95,16 +95,16 @@
             this.result.Location = new System.Drawing.Point(127, 230);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(74, 20);
-            this.result.TabIndex = 6;
+            this.result.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 233);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(96, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Result";
+            this.label3.Text = "Amount per person";
             // 
             // Split
             // 
